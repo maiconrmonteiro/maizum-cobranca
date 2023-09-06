@@ -11,9 +11,6 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url('../img/STORY_02_1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
   }
   
   .password-container {
@@ -22,6 +19,7 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 50%;
   }
 
   .input-senha {
@@ -37,4 +35,24 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+  }
+
+  #zum{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    background-image: url('../img/STORY_02_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
   }
