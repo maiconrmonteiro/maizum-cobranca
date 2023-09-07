@@ -1,5 +1,8 @@
 
 
+
+
+
 function gerar() {
 
     let cliente1 = window.document.getElementById('cliente1');
@@ -54,7 +57,6 @@ function gerar() {
     let mes = data.slice(-5, -3)
     let ano = data.slice(-10, -6)
 
-    console.log(ano)
 
 
     lado.innerHTML = (`
@@ -137,7 +139,7 @@ function gerar() {
             </table>
     
             <button id="botao" onclick="window.print()">Imprimir / Salvar</button>
-            <button id="botao" onclick="reload()">Recarregar Pagina</button>
+            <button id="botao" onclick="window.location.reload()">Recarregar Pagina</button>
 </div>   
     `)
 
