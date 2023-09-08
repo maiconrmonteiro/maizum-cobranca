@@ -1,8 +1,3 @@
-
-
-
-
-
 function gerar() {
 
     let cliente1 = window.document.getElementById('cliente1');
@@ -78,11 +73,11 @@ function gerar() {
             <tbody>
                 <tr>
                     <td class="tg-0lax">${cliente1.value}</td>
-                    <td class="tg-0lax">${valor1.value}</td>
+                    <td class="tg-0lax">${ valor1.value}</td>
                 </tr>
                 <tr>
                     <td class="tg-0lax">${cliente2.value}</td>
-                    <td class="tg-0lax">${valor2.value}</td>
+                    <td class="tg-0lax">${ valor2.value}</td>
                 </tr>
                 <tr>
                     <td class="tg-0lax">${cliente3.value}</td>
