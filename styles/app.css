@@ -29,6 +29,12 @@ body {
     flex-direction: column;
 }
 
+.nowap {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
+
 .lado-a {
     width: 50vw;
     height: 100vh;
@@ -124,10 +130,52 @@ button:hover {
 }
 
 
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Roboto Mono, sans-serif;font-size:14px;
-  overflow:hidden;padding:4px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Roboto Mono, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-0lax{text-align:left;vertical-align:top}
+
+
+/* daqui pra frente é a tabela*/
+
+.tg {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+.tg td {
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Roboto Mono, sans-serif;
+    font-size:14px;
+    overflow:hidden;
+    padding:4px 5px;
+    word-break:normal;
+}
+.tg th {
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-family:Roboto Mono, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:10px 5px;
+    word-break:normal;
+}
+.tg .tg-amwm {
+    font-weight:bold;
+    text-align:center;
+    vertical-align:top
+}
+.tg .tg-0lax {
+    text-align:left;
+    vertical-align:top
+}
+
+
+/* FIM DA TABELA*/
+
+
+@media only screen and (max-width: 1200px) {
+    .lado-a {
+        width: 20vw;
+    }
+  }
