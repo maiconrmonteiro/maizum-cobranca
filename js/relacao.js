@@ -60,7 +60,7 @@ function gerar() {
     </div>
     <h1 id="titulo">Relação de Cobrança<h1>
     
-    <table class="tg" style="undefined;table-layout: fixed; width: 700px">
+    <table class="tg" id="tg" style="undefined;table-layout: fixed; width: 600px">
             <thead>
                 <tr>
                     <th class="tg-amwm">Cliente</th>

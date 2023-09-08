@@ -33,6 +33,10 @@ button {
     margin-top: -40px;
 }
 
+table {
+    width: 90%;
+}
+
 @page 
     {
         size: auto;   /* auto is the initial value */
