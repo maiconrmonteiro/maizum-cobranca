@@ -39,9 +39,6 @@ function gerar() {
     let cliente13 = window.document.getElementById('cliente13');
     let valor13 = window.document.getElementById('valor13');
 
-    let cliente14 = window.document.getElementById('cliente14');
-    let valor14 = window.document.getElementById('valor14');
-
     let lado = window.document.getElementById('lado-a')
 
     let data = window.document.getElementById('data').value
@@ -61,7 +58,7 @@ function gerar() {
         <img src="img/logo.png" id="logo" class="logo" alt="logo">
         <p>Data: ${dia}/${mes}/${ano} </p>
     </div>
-    <h1>Relação de Cobrança<h1>
+    <h1 id="titulo">Relação de Cobrança<h1>
     
     <table class="tg" style="undefined;table-layout: fixed; width: 700px">
             <thead>
@@ -73,7 +70,7 @@ function gerar() {
             <tbody>
                 <tr>
                     <td class="tg-0lax">${cliente1.value}</td>
-                    <td class="tg-0lax">${ valor1.value}</td>
+                    <td class="tg-0lax">${valor1.value}</td>
                 </tr>
                 <tr>
                     <td class="tg-0lax">${cliente2.value}</td>
@@ -122,10 +119,6 @@ function gerar() {
                 <tr>
                     <td class="tg-0lax">${cliente13.value}</td>
                     <td class="tg-0lax">${valor13.value}</td>
-                </tr>
-                <tr>
-                    <td class="tg-0lax">${cliente14.value}</td>
-                    <td class="tg-0lax">${valor14.value}</td>
                 </tr>
                 <tr>
                     <td class="tg-0lax" colspan="2">OBS:<br>Motorista: ${motorista}</td>

@@ -21,12 +21,16 @@ button {
 }
 
 #cabecalho {
-    width: 100vw;
+    width: 90vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
-    
+    margin-top: -30px;
+    padding: 10px 10px 10px 10px;
+}
+
+#titulo {
+    margin-top: -40px;
 }
 
 @page 
